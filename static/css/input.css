@@ -22,6 +22,14 @@ p {
     @apply text-lg
 }
 
+ul li span:first-of-type {
+    @apply text-lg
+}
+
+div.info-section p:nth-of-type(2) {
+    @apply text-sm
+}
+
 ul {
     @apply list-disc list-inside
 }
@@ -33,6 +41,7 @@ ol {
 li {
     padding-left: 25px;
     text-indent: -22px;
+    @apply mb-2
 }
 
 hr {
