@@ -2,35 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-article h2 {
-    @apply text-2xl mt-4
+body {
+    font-family: Cinzel, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 
-article h3 {
+h1 {
+    @apply text-3xl
+}
+
+h2 {
+    @apply text-2xl mt-4 font-bold
+}
+
+h3 {
     @apply text-xl mt-2
 }
 
-article p {
-    @apply mt-2
+p {
+    @apply text-lg
 }
 
-article ul {
+ul {
     @apply list-disc list-inside
 }
 
-article ol {
+ol {
     @apply list-decimal list-inside
 }
 
-article li {
+li {
     padding-left: 25px;
     text-indent: -22px;
 }
 
-article hr {
+hr {
     @apply border-gray-300 my-4
 }
 
-article p a {
-    @apply underline underline-offset-4 hover:text-kpddaccent transition-colors duration-200
+a {
+    @apply underline underline-offset-4 hover:text-mabaccent transition-colors duration-200
 }
