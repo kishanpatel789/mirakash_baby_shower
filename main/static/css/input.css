@@ -11,23 +11,19 @@ h1 {
 }
 
 h2 {
-    @apply text-2xl mt-8 font-bold
+    @apply text-2xl mt-6 font-semibold
 }
 
 h3 {
     @apply text-xl mt-2
 }
 
-p {
-    @apply text-lg
-}
-
-ul li span:first-of-type {
+p, span {
     @apply text-lg
 }
 
 div.info-section p:nth-of-type(2) {
-    @apply text-sm
+    @apply text-base
 }
 
 ul {
@@ -41,7 +37,7 @@ ol {
 li {
     padding-left: 25px;
     text-indent: -22px;
-    @apply mb-2
+    @apply mb-1
 }
 
 hr {

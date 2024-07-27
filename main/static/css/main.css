@@ -567,6 +567,10 @@ video {
   height: 100vh;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -608,10 +612,10 @@ h1 {
 }
 
 h2 {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 1.5rem;
   line-height: 2rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h3 {
@@ -620,19 +624,14 @@ h3 {
   line-height: 1.75rem;
 }
 
-p {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-ul li span:first-of-type {
+p, span {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
 div.info-section p:nth-of-type(2) {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 ul {
@@ -648,7 +647,7 @@ ol {
 li {
   padding-left: 25px;
   text-indent: -22px;
-  margin-bottom: 0.5rem
+  margin-bottom: 0.25rem
 }
 
 hr {
