@@ -1,5 +1,9 @@
-S3_BUCKET=kp-data-dev-site
-CLOUDFRONT_ID=E3LKPMK8I8304X
+BASEDIR=$(CURDIR)
+OUTPUTDIR=$(BASEDIR)/main
+
+S3_BUCKET=mirakash-baby-site
+CLOUDFRONT_ID=
+
 
 s3_upload: 
 	aws s3 sync "$(OUTPUTDIR)"/ s3://$(S3_BUCKET) --delete
