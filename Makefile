@@ -2,7 +2,7 @@ BASEDIR=$(CURDIR)
 OUTPUTDIR=$(BASEDIR)/main
 
 S3_BUCKET=mirakash-baby-site
-CLOUDFRONT_ID=
+CLOUDFRONT_ID=E3JHBDENBLME8H
 
 devserver:
 	python -m http.server -d main
