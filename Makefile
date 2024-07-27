@@ -6,7 +6,7 @@ CLOUDFRONT_ID=
 
 
 s3_upload: 
-	aws s3 sync "$(OUTPUTDIR)"/ s3://$(S3_BUCKET) --delete
+	aws s3 sync "$(OUTPUTDIR)" s3://$(S3_BUCKET) --delete
 
 cf_invalidate:  
 	aws cloudfront create-invalidation --distribution-id $(CLOUDFRONT_ID) --paths "/*"
