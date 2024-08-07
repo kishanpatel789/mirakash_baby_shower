@@ -585,7 +585,7 @@ video {
 
 .bg-mabsec {
   --tw-bg-opacity: 1;
-  background-color: rgb(246 253 245 / var(--tw-bg-opacity));
+  background-color: rgb(253 254 255 / var(--tw-bg-opacity));
 }
 
 .px-2 {
@@ -613,7 +613,7 @@ video {
 
 .text-mabpri {
   --tw-text-opacity: 1;
-  color: rgb(88 113 93 / var(--tw-text-opacity));
+  color: rgb(73 90 135 / var(--tw-text-opacity));
 }
 
 body {
@@ -686,12 +686,6 @@ a:hover {
 
 @media (min-width: 640px) {
   .sm\:hidden {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:hidden {
     display: none;
   }
 }

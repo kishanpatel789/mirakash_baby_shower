@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        mabpri: "#58715d",
-        mabsec: "#f6fdf5",
+        mabpri: "#495a87",
+        mabsec: "#fdfeff",
         mabaccent: "#c2ae45"
       }
     },  },
