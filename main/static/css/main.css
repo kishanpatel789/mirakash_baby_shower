@@ -575,6 +575,10 @@ video {
   width: 80%;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -648,6 +652,16 @@ div.info-section p:nth-of-type(2) {
   line-height: 1.5rem;
 }
 
+#directions span {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+#accommodations li span:nth-of-type(2) {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 ul {
   list-style-position: inside;
   list-style-type: disc;
@@ -661,7 +675,7 @@ ol {
 li {
   padding-left: 25px;
   text-indent: -22px;
-  margin-bottom: 0.25rem
+  margin-bottom: 0.5rem
 }
 
 hr {
