@@ -663,19 +663,19 @@ div.info-section p:nth-of-type(2) {
 }
 
 ul {
-  list-style-position: inside;
+  list-style-position: outside;
   list-style-type: disc;
 }
 
 ol {
-  list-style-position: inside;
+  list-style-position: outside;
   list-style-type: decimal;
 }
 
 li {
-  padding-left: 25px;
-  text-indent: -22px;
-  margin-bottom: 0.5rem
+  margin-bottom: 0.5rem;
+  margin-inline-start: 1rem;
+  padding-inline-start: 0.5rem;
 }
 
 hr {
